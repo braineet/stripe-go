@@ -7,8 +7,8 @@ package bitcoinreceiver
 import (
 	"net/http"
 
-	stripe "github.com/stripe/stripe-go/v71"
-	"github.com/stripe/stripe-go/v71/form"
+	stripe "github.com/braineet/stripe-go/v71"
+	"github.com/braineet/stripe-go/v71/form"
 )
 
 // Client is used to invoke /bitcoin/receivers APIs.

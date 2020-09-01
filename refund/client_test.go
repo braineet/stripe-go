@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	assert "github.com/stretchr/testify/require"
-	stripe "github.com/stripe/stripe-go/v71"
-	_ "github.com/stripe/stripe-go/v71/testing"
+	stripe "github.com/braineet/stripe-go/v71"
+	_ "github.com/braineet/stripe-go/v71/testing"
 )
 
 func TestRefundGet(t *testing.T) {

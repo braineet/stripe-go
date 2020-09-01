@@ -3,7 +3,7 @@ package stripe
 import (
 	"encoding/json"
 
-	"github.com/stripe/stripe-go/v71/form"
+	"github.com/braineet/stripe-go/v71/form"
 )
 
 // AccountType is the type of an account.

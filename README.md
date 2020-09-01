@@ -1,6 +1,6 @@
 # Go Stripe
 
-[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/stripe/stripe-go)
+[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg)](http://godoc.org/github.com/braineet/stripe-go)
 [![Build Status](https://travis-ci.org/stripe/stripe-go.svg?branch=master)](https://travis-ci.org/stripe/stripe-go)
 [![Coverage Status](https://coveralls.io/repos/github/stripe/stripe-go/badge.svg?branch=master)](https://coveralls.io/github/stripe/stripe-go?branch=master)
 
@@ -19,8 +19,8 @@ Then, reference stripe-go in a Go program with `import`:
 
 ``` go
 import (
-    "github.com/stripe/stripe-go/v71"
-    "github.com/stripe/stripe-go/v71/customer"
+    "github.com/braineet/stripe-go/v71"
+    "github.com/braineet/stripe-go/v71/customer"
 )
 ```
 
@@ -30,7 +30,7 @@ toolchain will resolve and fetch the stripe-go module automatically.
 Alternatively, you can also explicitly `go get` the package into a project:
 
 ```
-go get -u github.com/stripe/stripe-go/v71
+go get -u github.com/braineet/stripe-go/v71
 ```
 
 ## Documentation
@@ -119,8 +119,8 @@ To use a key, pass it to `API`'s `Init` function:
 ```go
 
 import (
-	"github.com/stripe/stripe-go/v71"
-	"github.com/stripe/stripe-go/v71/client"
+	"github.com/braineet/stripe-go/v71"
+	"github.com/braineet/stripe-go/v71/client"
 )
 
 stripe := &client.API{}
@@ -141,8 +141,8 @@ import (
 	"google.golang.org/appengine"
 	"google.golang.org/appengine/urlfetch"
 
-	"github.com/stripe/stripe-go/v71"
-	"github.com/stripe/stripe-go/v71/client"
+	"github.com/braineet/stripe-go/v71"
+	"github.com/braineet/stripe-go/v71/client"
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
@@ -176,8 +176,8 @@ client.
 
 ```go
 import (
-	"github.com/stripe/stripe-go/v71"
-	"github.com/stripe/stripe-go/v71/$resource$"
+	"github.com/braineet/stripe-go/v71"
+	"github.com/braineet/stripe-go/v71/$resource$"
 )
 
 // Setup
@@ -216,8 +216,8 @@ individual key.
 
 ```go
 import (
-	"github.com/stripe/stripe-go/v71"
-	"github.com/stripe/stripe-go/v71/client"
+	"github.com/braineet/stripe-go/v71"
+	"github.com/braineet/stripe-go/v71/client"
 )
 
 // Setup
@@ -288,8 +288,8 @@ with `MaxNetworkRetries`:
 
 ```go
 import (
-	"github.com/stripe/stripe-go/v71"
-	"github.com/stripe/stripe-go/v71/client"
+	"github.com/braineet/stripe-go/v71"
+	"github.com/braineet/stripe-go/v71/client"
 )
 
 config := &stripe.BackendConfig{
@@ -443,19 +443,19 @@ pull request][pulls].
 
 [api-docs]: https://stripe.com/docs/api/go
 [api-changelog]: https://stripe.com/docs/upgrades
-[apiresponse]: https://godoc.org/github.com/stripe/stripe-go#APIResponse
+[apiresponse]: https://godoc.org/github.com/braineet/stripe-go#APIResponse
 [connect]: https://stripe.com/docs/connect/authentication
 [depgomodsupport]: https://github.com/golang/dep/pull/1963
 [expandableobjects]: https://stripe.com/docs/api/expanding_objects
-[godoc]: http://godoc.org/github.com/stripe/stripe-go
-[gomodrevert]: https://github.com/stripe/stripe-go/pull/774
-[gomodvsdep]: https://github.com/stripe/stripe-go/pull/712
+[godoc]: http://godoc.org/github.com/braineet/stripe-go
+[gomodrevert]: https://github.com/braineet/stripe-go/pull/774
+[gomodvsdep]: https://github.com/braineet/stripe-go/pull/712
 [idempotency-keys]: https://stripe.com/docs/api/ruby#idempotent_requests
-[issues]: https://github.com/stripe/stripe-go/issues/new
+[issues]: https://github.com/braineet/stripe-go/issues/new
 [logrus]: https://github.com/sirupsen/logrus/
 [modules]: https://github.com/golang/go/wiki/Modules
 [package-management]: https://code.google.com/p/go-wiki/wiki/PackageManagementTools
-[pulls]: https://github.com/stripe/stripe-go/pulls
+[pulls]: https://github.com/braineet/stripe-go/pulls
 [stripe]: https://stripe.com
 [stripe-mock]: https://github.com/stripe/stripe-mock
 [stripe-mock-usage]: https://github.com/stripe/stripe-mock#usage
